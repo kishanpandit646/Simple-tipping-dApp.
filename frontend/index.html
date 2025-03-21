@@ -16,7 +16,7 @@
         <div class="form-section">
             <h2>Send a Tip</h2>
             <input type="text" id="recipientAddress" placeholder="Recipient Address" />
-            <input type="number" id="tipAmount" placeholder="Amount in Ether" />
+            <input type="number" id="tipAmount" placeholder="Amount in Ether" step="any" />
             <button id="sendTipBtn">Send Tip</button>
         </div>
 
@@ -27,8 +27,8 @@
 
         <div class="form-section">
             <h2>Balance Information</h2>
-            <button id="checkBalanceBtn">Check My Balance</button>
-            <p id="userBalance">Your Balance: 0 ETH</p>
+            <button id="checkBalanceBtn">Check My Wallet Balance</button>
+            <p id="userBalance">Your Balance: 0.0 ETH</p> <!-- Updated to show decimal values -->
         </div>
 
         <footer>
@@ -40,4 +40,3 @@
     <script src="app.js"></script>
 </body>
 </html>
-
